@@ -9,7 +9,7 @@ body {
 .top_container {
     height: 25vh;
     width: 100vw;
-    background-color: rgb(10, 10, 10);
+    background-color: rgb(15, 15, 15);
     color: white;
     display: flex;
     flex-direction: column;
@@ -24,3 +24,25 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+.bottom_container {
+    height: 75vh;
+    width: 100vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    margin-top: 20px;
+}
+
+.score {
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+}
+
+#score {
+    margin-right: 2rem;
+}
+
