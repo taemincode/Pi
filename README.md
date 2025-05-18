@@ -4,8 +4,8 @@ This is a fun web-based typing game where users try to type as many digits of π
 
 ## 🔍 Overview
 
+![Screenshot of Pi Game](app/static/images/game_screenshot.png)
 - Type the digits of pi in order, starting after `3.`.
-![Screenshot of Pi Game](static/images/game_screenshot.png)
 - Your time starts with your first input.
 - If you make a mistake, the game ends and your final score is shown.
 - The game disables paste, copy, and deletion to prevent cheating.
