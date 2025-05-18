@@ -85,6 +85,7 @@ document.addEventListener('DOMContentLoaded', function() {
             } else {
                 // Incorrect input
                 this.style.backgroundColor = 'rgba(255,0,0,0.2)';
+                this.disabled = true; // Disable textarea on wrong input
                 endGame(seconds, score);
                 if (timerInterval) clearInterval(timerInterval); // Stop timer on end
             }
