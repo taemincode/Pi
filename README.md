@@ -5,6 +5,7 @@ This is a fun web-based typing game where users try to type as many digits of π
 ## 🔍 Overview
 
 - Type the digits of pi in order, starting after `3.`.
+![Screenshot of Pi Game](static/images/game_screenshot.png)
 - Your time starts with your first input.
 - If you make a mistake, the game ends and your final score is shown.
 - The game disables paste, copy, and deletion to prevent cheating.
@@ -31,15 +32,17 @@ To run the project locally:
 1. Clone the repository or download the files.
 2. Ensure the following folder structure:
 
-project-folder/
-├── static/
-│   ├── css/
-│   │   └── style.css
-│   ├── js/
-│   │   └── main.js
-│   └── images/
-│       └── pi_symbol.png
-├── index.html
+PI/
+├── app/
+│   ├── __init__.py
+│   ├── routes.py
+│   ├── static/
+│   │   ├── css/
+│   │   ├── js/
+│   │   └── images/
+│   └── templates/
+│       └── index.html
+├── run.py
 └── README.md
 
 3. Open `index.html` in your browser.
