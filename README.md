@@ -30,3 +30,31 @@ To run the project locally:
 
 1. Clone the repository or download the files.
 2. Ensure the following folder structure:
+
+project-folder/
+├── static/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── main.js
+│   └── images/
+│       └── pi_symbol.png
+├── index.html
+└── README.md
+
+3. Open `index.html` in your browser.
+
+## 📂 File Structure
+
+- `index.html` – The main HTML file.
+- `style.css` – Styles for layout and design (in `static/css/`).
+- `main.js` – Game logic (in `static/js/`).
+- `pi_symbol.png` – Pi symbol image (in `static/images/`).
+
+## 📜 License
+
+This project is free to use and modify for educational or personal use.
+
+---
+
+Enjoy the challenge, and see how many digits of π you can remember!
