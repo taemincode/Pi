@@ -3,18 +3,21 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
+    font-weight: 300;
     background-color: rgb(30, 30, 30);
 }
 
 .top_container {
-    height: 25vh;
+    height: 30vh;
     width: 100vw;
-    background-color: rgb(15, 15, 15);
+    background-color: rgb(20, 20, 20);
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .logo {
@@ -22,18 +25,22 @@ body {
     height: 100px;
     border-radius: 50%;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
+}
+
+.content {
+    text-align: center;
+    font-size: 30px;
 }
 
 .bottom_container {
-    height: 75vh;
-    width: 100vw;
+    height: 70vh;
+    width: 80vw;
     color: white;
     display: flex;
     flex-direction: column;
     margin-right: 10vw;
     margin-left: 10vw;
-    margin-top: 20px;
 }
 
 .score {
@@ -46,3 +53,70 @@ body {
     margin-right: 2rem;
 }
 
+/* Hide spinners in Chrome, Safari, Edge, Opera */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Hide spinners in Firefox and standard browsers */
+input[type=number] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: center;
+}
+
+.input {
+    width: 80vw;
+    height: 50vh;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    font-size: 4rem;
+    padding-left: 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.text {
+    font-size: 4rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: white;
+    margin-top: 2px;
+    margin-right: 10px;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.close-btn {
+    margin-top: 15px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
