@@ -31,7 +31,7 @@ To run the project locally:
 
 1. Clone the repository or download the files.
 2. Ensure the following folder structure:
-
+```
 PI/
 ├── app/
 │   ├── __init__.py
@@ -44,8 +44,9 @@ PI/
 │       └── index.html
 ├── run.py
 └── README.md
+```
 
-3. Open `index.html` in your browser.
+4. Open `index.html` in your browser.
 
 ## 📂 File Structure
 
